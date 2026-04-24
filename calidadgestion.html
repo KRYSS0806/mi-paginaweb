@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calidad en la Gestión - ITLA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+
+  <style>
+    body { background-color: #f0f4ff; }
+    .navbar-custom { background-color: #cc0000; }
+    .page-header { background: linear-gradient(135deg, #003399, #cc0000); color: white; padding: 60px 0; }
+    .footer-custom { background-color: #003399; color: white; }
+    .seccion-titulo { border-left: 5px solid #cc0000; padding-left: 12px; }
+    .proceso-num {
+      width: 50px; height: 50px;
+      background-color: #cc0000;
+      border-radius: 50%;
+      color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: bold; font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .proceso-num.azul { background-color: #003399; }
+    .norma-card { border-left: 5px solid #003399; }
+    .norma-card.rojo { border-left-color: #cc0000; }
+  </style>
+</head>
+<body>
+
+<div class="bg-dark text-white py-1 px-3 d-flex justify-content-between small">
+  <span><i class="bi bi-telephone-fill"></i> (809)-738-4852 / (809)-793-2557</span>
+  <span><i class="bi bi-geo-alt-fill"></i> Km. 27, Las Américas, La Caleta, Boca Chica</span>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">
+      <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" height="45" alt="ITLA"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Sobre ITLA</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="quienessomos.html">Quiénes Somos</a></li>
+            <li><a class="dropdown-item" href="historia.html">Historia</a></li>
+            <li><a class="dropdown-item" href="rectoria.html">Rectoría</a></li>
+            <li><a class="dropdown-item" href="calidadgestion.html">Calidad en la Gestión</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="ofertaacademica.html">Oferta Académica</a></li>
+        <li class="nav-item"><a class="nav-link" href="cafedigital.html">Café Digital</a></li>
+        <li class="nav-item"><a class="nav-link" href="gestiondocente.html">Gestión Docente</a></li>
+        <li class="nav-item"><a class="nav-link" href="transparencia.html">Transparencia</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header text-center">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item"><a href="index.html" class="text-warning">Inicio</a></li>
+        <li class="breadcrumb-item text-white active">Calidad en la Gestión</li>
+      </ol>
+    </nav>
+    <h1 class="display-5 fw-bold">Calidad en la Gestión</h1>
+    <p class="lead">Compromiso con la excelencia y la mejora continua institucional</p>
+  </div>
+</div>
+
+<div class="container my-5">
+
+  <!-- Intro -->
+  <div class="row align-items-center g-4 mb-5">
+    <div class="col-md-7">
+      <h2 class="seccion-titulo mb-3">Nuestro Compromiso con la Calidad</h2>
+      <p>El ITLA está comprometido con la <strong>gestión de calidad</strong> en todos sus procesos académicos y administrativos. Implementamos sistemas de mejora continua basados en estándares nacionales e internacionales.</p>
+      <p>La calidad no es solo un objetivo, es parte de nuestra cultura institucional. Cada proceso, cada servicio y cada programa académico es diseñado y evaluado con el fin de superar las expectativas de nuestra comunidad.</p>
+      <div class="d-flex gap-3 mt-3 flex-wrap">
+        <span class="badge bg-danger p-2 fs-6">ISO 9001</span>
+        <span class="badge bg-primary p-2 fs-6">MESCYT</span>
+        <span class="badge bg-danger p-2 fs-6">MAP</span>
+        <span class="badge bg-primary p-2 fs-6">CAF</span>
+      </div>
+    </div>
+    <div class="col-md-5 text-center">
+      <i class="bi bi-patch-check-fill text-primary" style="font-size: 8rem; opacity: 0.15;"></i>
+      <div class="mt-n5 position-relative">
+        <i class="bi bi-award-fill text-danger" style="font-size: 4rem;"></i>
+        <br/>
+        <span class="badge bg-danger mt-2 p-2">Institución Certificada</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pilares de calidad -->
+  <h2 class="seccion-titulo mb-4">Pilares de la Calidad ITLA</h2>
+  <div class="row g-3 mb-5">
+    <div class="col-md-3 text-center">
+      <div class="card border-0 shadow-sm p-3 h-100">
+        <i class="bi bi-graph-up-arrow text-danger fs-2 mb-2"></i>
+        <h6 class="fw-bold">Mejora Continua</h6>
+        <p class="small text-muted mb-0">Procesos en constante revisión y optimización para mejores resultados.</p>
+      </div>
+    </div>
+    <div class="col-md-3 text-center">
+      <div class="card border-0 shadow-sm p-3 h-100">
+        <i class="bi bi-people-fill text-primary fs-2 mb-2"></i>
+        <h6 class="fw-bold">Enfoque al Estudiante</h6>
+        <p class="small text-muted mb-0">El estudiante es el centro de todas nuestras decisiones y estrategias.</p>
+      </div>
+    </div>
+    <div class="col-md-3 text-center">
+      <div class="card border-0 shadow-sm p-3 h-100">
+        <i class="bi bi-clipboard2-data-fill text-danger fs-2 mb-2"></i>
+        <h6 class="fw-bold">Gestión por Indicadores</h6>
+        <p class="small text-muted mb-0">Decisiones basadas en datos medibles y objetivos verificables.</p>
+      </div>
+    </div>
+    <div class="col-md-3 text-center">
+      <div class="card border-0 shadow-sm p-3 h-100">
+        <i class="bi bi-shield-check text-primary fs-2 mb-2"></i>
+        <h6 class="fw-bold">Transparencia</h6>
+        <p class="small text-muted mb-0">Rendición de cuentas y apertura en todos los procesos institucionales.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Procesos de calidad -->
+  <h2 class="seccion-titulo mb-4">Ciclo de Mejora Continua</h2>
+  <div class="d-flex flex-column gap-3 mb-5">
+
+    <div class="d-flex align-items-start gap-3 bg-white rounded shadow-sm p-3">
+      <div class="proceso-num">1</div>
+      <div>
+        <h6 class="fw-bold mb-1">Planificación (Plan)</h6>
+        <p class="text-muted small mb-0">Identificación de objetivos, metas e indicadores de desempeño institucional. Diseño de estrategias para alcanzar los resultados esperados.</p>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-start gap-3 bg-white rounded shadow-sm p-3">
+      <div class="proceso-num azul">2</div>
+      <div>
+        <h6 class="fw-bold mb-1">Ejecución (Do)</h6>
+        <p class="text-muted small mb-0">Implementación de los planes y programas institucionales con los recursos humanos, tecnológicos y financieros disponibles.</p>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-start gap-3 bg-white rounded shadow-sm p-3">
+      <div class="proceso-num">3</div>
+      <div>
+        <h6 class="fw-bold mb-1">Verificación (Check)</h6>
+        <p class="text-muted small mb-0">Medición de resultados, análisis de indicadores y evaluación del cumplimiento de metas establecidas en el plan operativo.</p>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-start gap-3 bg-white rounded shadow-sm p-3">
+      <div class="proceso-num azul">4</div>
+      <div>
+        <h6 class="fw-bold mb-1">Ajuste (Act)</h6>
+        <p class="text-muted small mb-0">Implementación de acciones correctivas y preventivas para optimizar los procesos y alcanzar los objetivos institucionales.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Normativas -->
+  <h2 class="seccion-titulo mb-4">Normas y Certificaciones</h2>
+  <div class="row g-3 mb-5">
+
+    <div class="col-md-6">
+      <div class="card norma-card border-0 shadow-sm p-3">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-file-earmark-check-fill text-primary fs-3"></i>
+          <div>
+            <h6 class="fw-bold mb-1">ISO 9001:2015 — Gestión de Calidad</h6>
+            <p class="small text-muted mb-0">Sistema de Gestión de Calidad para procesos académicos y administrativos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card norma-card rojo border-0 shadow-sm p-3">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-award-fill text-danger fs-3"></i>
+          <div>
+            <h6 class="fw-bold mb-1">Acreditación MESCYT</h6>
+            <p class="small text-muted mb-0">Reconocimiento oficial del Ministerio de Educación Superior de la RD.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card norma-card border-0 shadow-sm p-3">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-building-check text-primary fs-3"></i>
+          <div>
+            <h6 class="fw-bold mb-1">Modelo CAF — Marco Común de Evaluación</h6>
+            <p class="small text-muted mb-0">Herramienta de mejora de calidad para instituciones del sector público.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="card norma-card rojo border-0 shadow-sm p-3">
+        <div class="d-flex align-items-center gap-3">
+          <i class="bi bi-clipboard-data text-danger fs-3"></i>
+          <div>
+            <h6 class="fw-bold mb-1">Carta Compromiso al Ciudadano</h6>
+            <p class="small text-muted mb-0">Compromisos de calidad del servicio con los ciudadanos usuarios del ITLA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Encuesta de satisfacción -->
+  <div class="card border-0 shadow p-4" style="background: linear-gradient(to right, #003399, #cc0000); color: white;">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <h5 class="fw-bold mb-2">📋 Encuesta de Satisfacción</h5>
+        <p class="mb-0 small">Tu opinión es importante para nosotros. Completa la encuesta de satisfacción y ayúdanos a mejorar nuestros servicios.</p>
+      </div>
+      <div class="col-md-4 text-md-end mt-3 mt-md-0">
+        <a href="#" class="btn btn-warning fw-bold">Completar Encuesta</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="text-white pt-5 pb-3 mt-5" style="background-color: #003399;">
+        <div class="container text-center">
+            <img src="https://itla.edu.do/wp-content/uploads/2025/02/logo-itla-blanco.png" height="50" class="mb-3" alt="ITLA">
+            <p class="small opacity-75 mb-4">Autopista Las Américas, Km. 27, PCSD, La Caleta, Boca Chica 11606, R.D.</p>
+            <div class="d-flex justify-content-center gap-4 fs-4 mb-4">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+            <hr class="border-light opacity-25">
+            <p class="small opacity-50">© 2026 ITLA — Tu futuro comienza aquí.</p>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
